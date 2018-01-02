@@ -1,9 +1,9 @@
 package kr.geomex.a.main;
 
-import kr.geomex.collecttionTest.ArrayListTest;
-import kr.geomex.collecttionTest.HashMapTest;
-import kr.geomex.collecttionTest.HashSetTest;
-import kr.geomex.collecttionTest.Student;
+import kr.geomex.b.collecttionTest.ArrayListTest;
+import kr.geomex.b.collecttionTest.HashMapTest;
+import kr.geomex.b.collecttionTest.HashSetTest;
+import kr.geomex.b.collecttionTest.Student;
 
 public class CollectionMain {
 
@@ -92,7 +92,16 @@ public class CollectionMain {
 		hm.put("201485014",new Student("201300014","신선호"));
 		hm.put("201200014",new Student("201300014","신미진"));
 		hm.print();
-		System.out.println(hm.get("201685013"));
+		
+		System.out.println(hm.get("201485014"));
+		
+		
+		/**
+		 * 
+		 * 
+		 * LinkedList을 사용하는 프로그램
+		 */
+		
 		
 	}
 

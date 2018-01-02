@@ -1,8 +1,8 @@
 package kr.geomex.a.main;
 
-import kr.geomex.StringTest.StringTest;
-import kr.geomex.StringTest.Tokenizer;
-import kr.geomex.StringTest.StringBf;
+import kr.geomex.b.stringTest.StringBf;
+import kr.geomex.b.stringTest.StringTest;
+import kr.geomex.b.stringTest.Tokenizer;
 
 public class StringMain {
 
@@ -33,7 +33,7 @@ public class StringMain {
 		
 		
 		/**
-		 * 
+		 * StringTokenizer ¿¹Á¦
 		 */
 		
 		/*Tokenizer st =new Tokenizer();

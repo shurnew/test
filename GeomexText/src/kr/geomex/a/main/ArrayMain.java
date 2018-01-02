@@ -1,8 +1,8 @@
 package kr.geomex.a.main;
 
-import kr.geomex.arrayTest.DeleteArray;
-import kr.geomex.arrayTest.InsertArray;
-import kr.geomex.arrayTest.ListforArray;
+import kr.geomex.b.arrayTest.DeleteArray;
+import kr.geomex.b.arrayTest.InsertArray;
+import kr.geomex.b.arrayTest.ListforArray;
 
 public class ArrayMain {
 
