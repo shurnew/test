@@ -9,11 +9,11 @@ public class byteTypeTest {
  * 
  */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		byte a=(byte)128;
-		System.out.println("128을 저장한값은"+a);
+		
 		byte b=(byte)256;
+		byte a=(byte)128;
+		
+		System.out.println("128을 저장한값은"+a);
 		System.out.println("256을 저장한값은"+b);
 	}
-
 }

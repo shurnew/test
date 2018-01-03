@@ -3,7 +3,7 @@ package kr.geomex.dataTypeTest;
 public class FloatDoubleText {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		float a=0.1234567890123457890f;//float형은  마지막에 f을 붙여야한다 9자리까지표시
 		double b=0.1234567901234567890;//double형은 소수점18자리까지표현가능
 		System.out.println(a);

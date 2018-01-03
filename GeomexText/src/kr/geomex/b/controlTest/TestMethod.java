@@ -9,7 +9,7 @@ public class TestMethod {
 	String  s;	
 	
 	
-	
+	// TODO 나중에 testmethod 공부더해보기
 	public TestMethod(){
 		
 	}
