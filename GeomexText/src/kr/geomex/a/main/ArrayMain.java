@@ -34,7 +34,7 @@ public class ArrayMain {
 		 * 배열에 값을 추가하고  삭제와 같은 인덱스에 값을 추가해보는 프로그램
 		 */
 		
-/*
+
 		DeleteArray ary=new DeleteArray();
 		
 		System.out.println("배열안에저장된값----------------");
@@ -52,13 +52,13 @@ public class ArrayMain {
 		ary.print(1);
 		
 		ary.print(2);//배열은  1번자리에 데이터를 추가하면 1번자리에있는 데이터만 덮어씌여 1번데이터만 사라진다
-		*/
+		
 		
 		/**
 		 * 배열에서 리스트처럼 중복된 인덱스의  데이터를 덮어쓰지않고 다음인덱스로 한칸씩 밀어쓰는 프로그램 
 		 */
 		
-		
+	/*	
 		ListforArray ary = new ListforArray();
 		
 		ary.insert(0,"0번");
@@ -78,7 +78,7 @@ public class ArrayMain {
 		System.out.println("-------------------------");
 		
 		ary.printAll();
-		
+		*/
 		
 		
 		

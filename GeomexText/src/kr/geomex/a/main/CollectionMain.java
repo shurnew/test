@@ -144,6 +144,7 @@ public class CollectionMain {
 		 * 큐을 사용하기 위한 프로그램 
 		 */
 		
+		/*
 		QueueTest qu=new QueueTest();//큐는 가장먼저 들어간 데이터부터 반환
 		
 		qu.add(1);
@@ -155,7 +156,7 @@ public class CollectionMain {
 		System.out.println("가장 먼저 들어간 데이터 반환 삭제 :"+qu.poll());
 		
 		qu.print();
-		
+		*/
 	}
 
 }

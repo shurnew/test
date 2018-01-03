@@ -37,12 +37,16 @@ public class ControlMain {
 		  TestMethod f2 =new TestMethod("123");
 		  
 		  TestMethod f3 =new TestMethod(4);
-		  
- 		 f1. print();
 		 
-		 f1. print(50);
+		  System.out.println("---------------------------");
+ 		
+		  f1. print();
+ 		
+		  System.out.println("---------------------------");
+		
+		  f1. print(50);
 		 
-		 System.out.println("2번메소드의 반환값"+f1.print(50));
+		  System.out.println("2번메소드의 반환값"+f1.print(50));
 		 
 		
 		/**
