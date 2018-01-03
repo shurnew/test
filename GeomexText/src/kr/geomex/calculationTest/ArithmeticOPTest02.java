@@ -2,10 +2,11 @@ package kr.geomex.calculationTest;
 
 public class ArithmeticOPTest02 {
 
-	public static void main(String[] args) {
+	
 		byte a= 127,b=2;
 		byte c=(byte)(a*b);
 		int d= (a*b);
+		public void print() {
 		System.out.println("a*b결과를 byte형식으로출력"+c);
 		System.out.println("a*b결과를 int형식으로출력"+d); 
 

@@ -2,9 +2,9 @@ package kr.geomex.calculationTest;
 
 public class AssighOPTest {
 
-	public static void main(String[] args)
-	{
+	
 		int a= 10;
+		public void print() {
 		System.out.println("a="+a);
 		 a+= 4;
 		System.out.println("a+=ÀÇ °á°ú"+a);

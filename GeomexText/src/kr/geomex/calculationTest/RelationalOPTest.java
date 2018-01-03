@@ -2,10 +2,12 @@ package kr.geomex.calculationTest;
 
 public class RelationalOPTest {
 
-	public static void main(String[] args) {
+	
 		byte a=20;
 		double d = 3.14;
 		boolean fag;
+		
+		public void print() {
 		fag=a> d;
 		System.out.println("a가 d보다큰가"+fag);
 		fag=a ==20.0f;
