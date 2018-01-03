@@ -15,7 +15,15 @@ public class HashMapTest {
 	   //TreeMap<String, String> map = new TreeMap<String,String>();//키값의 순서대로 정렬
 	  
 	   public void put(String key,Student var) {
-		   map.put(key,var);
+		  
+		   if(map.get(key)==null) {
+			
+			   map.put(key,var);
+		  
+		   }else {
+			   map.replace(key, var);
+		   }
+		   
 	   }
 	   
 	   public Student get(String key) {
@@ -30,6 +38,11 @@ public class HashMapTest {
 	            System.out.println(entry.getKey() + " : " + entry.getValue());
 	        }
 		   
+	   }
+	   
+	   
+	   public void clear() {
+		   map.clear();//모든 요소를 제거
 	   }
 		 
 	  
