@@ -1,11 +1,11 @@
 package kr.geomex.a.main;
 
-import kr.geomex.b.collecttionTest.ArrayListTest;
-import kr.geomex.b.collecttionTest.HashMapTest;
-import kr.geomex.b.collecttionTest.HashSetTest;
-import kr.geomex.b.collecttionTest.QueueTest;
-import kr.geomex.b.collecttionTest.StackTest;
-import kr.geomex.b.collecttionTest.Student;
+import kr.geomex.collecttionTest.ArrayListTest;
+import kr.geomex.collecttionTest.HashMapTest;
+import kr.geomex.collecttionTest.HashSetTest;
+import kr.geomex.collecttionTest.QueueTest;
+import kr.geomex.collecttionTest.StackTest;
+import kr.geomex.collecttionTest.Student;
 
 public class CollectionMain {
 

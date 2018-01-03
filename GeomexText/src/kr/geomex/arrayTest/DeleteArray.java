@@ -1,4 +1,4 @@
-package kr.geomex.b.arrayTest;
+package kr.geomex.arrayTest;
 
 public class DeleteArray {
 	int size = 4;

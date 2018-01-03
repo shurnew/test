@@ -1,10 +1,10 @@
 package kr.geomex.a.main;
 
-import kr.geomex.b.arrayTest.InsertArray;
-import kr.geomex.b.controlTest.Pr01;
-import kr.geomex.b.controlTest.Pr02;
-import kr.geomex.b.controlTest.RPSGame;
-import kr.geomex.b.controlTest.TestMethod;
+import kr.geomex.arrayTest.InsertArray;
+import kr.geomex.controlTest.Pr01;
+import kr.geomex.controlTest.Pr02;
+import kr.geomex.controlTest.RPSGame;
+import kr.geomex.controlTest.TestMethod;
 
 public class ControlMain {
 

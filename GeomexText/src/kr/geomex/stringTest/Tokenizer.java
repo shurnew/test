@@ -1,4 +1,4 @@
-package kr.geomex.b.stringTest;
+package kr.geomex.stringTest;
 
 import java.util.ArrayList;
 import java.util.Iterator;

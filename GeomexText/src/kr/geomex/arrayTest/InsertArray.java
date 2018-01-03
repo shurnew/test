@@ -1,4 +1,4 @@
-package kr.geomex.b.arrayTest;
+package kr.geomex.arrayTest;
 
 public class InsertArray {
 	int pos=0;

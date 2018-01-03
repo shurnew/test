@@ -1,4 +1,4 @@
-package kr.geomex.b.stringTest;
+package kr.geomex.stringTest;
 
 public class StringTest {
 	String str1 ="java";

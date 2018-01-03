@@ -1,4 +1,4 @@
-package kr.geomex.b.controlTest;
+package kr.geomex.controlTest;
 
 public class TestFor_01 {
 

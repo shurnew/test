@@ -1,4 +1,4 @@
-package kr.geomex.b.collecttionTest;
+package kr.geomex.collecttionTest;
 
 public class Student {
 	String num="";

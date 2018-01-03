@@ -2,9 +2,9 @@ package kr.geomex.a.main;
 
 import java.util.ArrayList;
 
-import kr.geomex.b.collecttionTest.ArrayQueue;
+import kr.geomex.collecttionTest.ArrayQueue;
 
-public class Main {
+public class ArrayQueueMain {
 
 	public static void main(String[] args) {
 

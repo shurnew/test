@@ -1,4 +1,4 @@
-package kr.geomex.b.dateTest;
+package kr.geomex.dateTest;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.SimpleTimeZone;

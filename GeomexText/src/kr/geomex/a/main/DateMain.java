@@ -1,6 +1,6 @@
 package kr.geomex.a.main;
 
-import kr.geomex.b.dateTest.DateTest;
+import kr.geomex.dateTest.DateTest;
 
 public class DateMain {
 

@@ -1,4 +1,4 @@
-package kr.geomex.b.controlTest;
+package kr.geomex.controlTest;
 
 import java.io.IOException;
 public class Pr03 {

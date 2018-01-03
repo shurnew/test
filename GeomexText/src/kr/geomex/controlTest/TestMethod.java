@@ -1,4 +1,4 @@
-package kr.geomex.b.controlTest;
+package kr.geomex.controlTest;
 import java.util.*;
 
 import kr.geomex.petTest.Pet6;

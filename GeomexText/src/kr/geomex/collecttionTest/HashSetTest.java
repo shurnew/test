@@ -1,4 +1,4 @@
-package kr.geomex.b.collecttionTest;
+package kr.geomex.collecttionTest;
 
 import java.util.ArrayList;
 import java.util.HashSet;

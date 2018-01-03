@@ -1,4 +1,4 @@
-package kr.geomex.b.controlTest;
+package kr.geomex.controlTest;
 import java.lang.Object;
 import java.util.Scanner;
 public class Pr01 {

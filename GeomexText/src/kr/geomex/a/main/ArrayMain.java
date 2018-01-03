@@ -1,8 +1,8 @@
 package kr.geomex.a.main;
 
-import kr.geomex.b.arrayTest.DeleteArray;
-import kr.geomex.b.arrayTest.InsertArray;
-import kr.geomex.b.arrayTest.ListforArray;
+import kr.geomex.arrayTest.DeleteArray;
+import kr.geomex.arrayTest.InsertArray;
+import kr.geomex.arrayTest.ListforArray;
 
 public class ArrayMain {
 
@@ -38,19 +38,12 @@ public class ArrayMain {
 		DeleteArray ary=new DeleteArray();
 		
 		System.out.println("배열안에저장된값----------------");
-		
 		ary.printAll();
-		
 		System.out.println("--------------------------");
-		
 		ary.delete(1);
-		
 		ary.insert(1, "새로 입력한 값_01");
-		
 		ary.insert(1, "새로 입력한 값_02");
-		
 		ary.print(1);
-		
 		ary.print(2);//배열은  1번자리에 데이터를 추가하면 1번자리에있는 데이터만 덮어씌여 1번데이터만 사라진다
 		
 		
