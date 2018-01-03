@@ -3,7 +3,7 @@ package kr.geomex.b.arrayTest;
 public class DeleteArray {
 	int size = 4;
 //	String[] array=new String[size];
-	String []array= {"이 공간은 0번공간","이 공간은1번공간","이 공간은3번공간","이 공간은4번공간"};
+	String []array= {"이 공간은 0번공간","이 공간은1번공간","이 공간은3번공간","이 공간은4번공간"};//선언할때 값을 먼저 넣어준다
 	
 	public DeleteArray(){
 

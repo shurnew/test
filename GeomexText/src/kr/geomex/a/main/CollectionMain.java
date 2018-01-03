@@ -3,6 +3,7 @@ package kr.geomex.a.main;
 import kr.geomex.b.collecttionTest.ArrayListTest;
 import kr.geomex.b.collecttionTest.HashMapTest;
 import kr.geomex.b.collecttionTest.HashSetTest;
+
 import kr.geomex.b.collecttionTest.Student;
 
 public class CollectionMain {
@@ -27,6 +28,13 @@ public class CollectionMain {
 			System.out.println("---------------------------------------");
 			
 			list.remove(2);
+			
+			list.print();
+			
+			System.out.println("---------------------------------------");
+			
+			list.set(1, "180");
+			
 			list.print();
 			
 			System.out.println("---------------------------------------");
@@ -86,21 +94,21 @@ public class CollectionMain {
 		 * HashMap을 사용하는 프로그램
 		 */
 		
+		
 		HashMapTest hm=new HashMapTest();
+		
 		hm.put("201585013",new Student("201585013","송재림"));
+		
 		hm.put("201300014",new Student("201300014","이우석"));
+		
 		hm.put("201485014",new Student("201300014","신선호"));
+		
 		hm.put("201200014",new Student("201300014","신미진"));
+		
 		hm.print();
 		
 		System.out.println(hm.get("201485014"));
 		
-		
-		/**
-		 * 
-		 * 
-		 * LinkedList을 사용하는 프로그램
-		 */
 		
 		
 	}

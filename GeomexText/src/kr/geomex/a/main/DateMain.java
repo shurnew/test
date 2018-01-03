@@ -9,7 +9,11 @@ public class DateMain {
 		
 		date.print();
 		
+		System.out.println("----------------------------------------------");
+		
 		date.print2();
+		
+		System.out.println("----------------------------------------------");
 		
 		date.print3();
 		

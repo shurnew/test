@@ -35,7 +35,7 @@ public class HashSetTest {
 	  
 	  public void contains() {
 		  
-		  //질문 : 헤쉬맵으로 선언한  객체변수를  배열안에 넣어 호출할수있는방법?
+		  
 		  System.out.println("b는a의 부분집합인가?");
 		   System.out.println(set1.containsAll(set2));
 		   

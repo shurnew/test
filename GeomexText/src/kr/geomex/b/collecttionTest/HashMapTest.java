@@ -19,8 +19,8 @@ public class HashMapTest {
 	   }
 	   
 	   public Student get(String key) {
-		 
-		   return(map.get(key));
+	//	 String s=( map.get(key)).toString();
+		   return ( map.get(key));
 	   }
 	  
 	   public  void print() {

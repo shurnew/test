@@ -3,7 +3,7 @@ package kr.geomex.b.collecttionTest;
 import java.util.*;
 
 public class ArrayListTest {
-
+	//LinkedList<String> list= new LinkedList<String>();
 	ArrayList<String> list= new ArrayList<String>();
 	
 	int num=0;
@@ -50,6 +50,14 @@ public class ArrayListTest {
 		}
 		
 	}
+	
+
+	public void set(int index, String var) {
+		
+		list.set(index, var);
+		System.out.println("set()은 해당 인덱스["+index+ "]엘리먼트의 값이 "+var+"으로변경됩니다 ");
+	}
+	
 	
 	
 	

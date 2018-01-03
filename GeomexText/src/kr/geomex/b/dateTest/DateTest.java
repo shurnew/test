@@ -9,19 +9,27 @@ import java.util.Calendar;
 public class DateTest {
 	
 	Date date=new Date();
+	
 	Calendar cal=Calendar.getInstance();
-	GregorianCalendar gc=new GregorianCalendar(date.getYear(),date.getMonth(),date.getDate(),
-				date.getHours(),date.getMinutes(),date.getSeconds());
+	
+	GregorianCalendar gc=new GregorianCalendar(cal.get(Calendar.YEAR),cal.get(Calendar.MONTH),cal.get(Calendar.DATE),
+			cal.get(Calendar.HOUR),cal.get(Calendar.MINUTE),cal.get(Calendar.SECOND));
+	
+	GregorianCalendar gc1=new GregorianCalendar();
 	
 	public void print() {
-		System.out.println("getTime:"+date.getTime());	
-		System.out.println("getDate:"+date.getDate());
-		System.out.println("getDay:"+date.getDay());
-		System.out.println("getHours:"+date.getHours());
-		System.out.println("getMinutes:"+date.getMinutes());
-		System.out.println("getMonth:"+date.getMonth());
-		System.out.println("getSeconds:"+date.getSeconds());
-		System.out.println("getYear:"+date.getYear());
+		
+
+        System.out.println("getYear:"+cal.get(Calendar.YEAR));
+        System.out.println("getMonth:"+cal.get(Calendar.MONTH));
+        System.out.println("getDay:"+cal.get(Calendar.DAY_OF_MONTH));
+		System.out.println("getTime:"+cal.getTime());	
+		System.out.println("getDate:"+cal.get(Calendar.DATE));
+		System.out.println("getHours:"+cal.get(Calendar.HOUR));
+		System.out.println("getMinutes:"+cal.get(Calendar.MINUTE));
+		
+		System.out.println("getSeconds:"+cal.get(Calendar.SECOND));
+		
 		System.out.println("get():"+cal.get(Calendar.DAY_OF_WEEK));
 	}
 	
@@ -31,14 +39,14 @@ public class DateTest {
 		
 		
 		
-		System.out.println("year:"+gc.get(GregorianCalendar.YEAR));
-		System.out.println("Mounth:"+gc.get(GregorianCalendar.MONTH));
-		System.out.println("date:"+gc.get(GregorianCalendar.DAY_OF_MONTH));
-		System.out.println("hour:"+gc.get(GregorianCalendar.HOUR_OF_DAY));
-		System.out.println("minute:"+gc.get(GregorianCalendar.MINUTE));
-		System.out.println("second:"+gc.get(GregorianCalendar.SECOND));
-		System.out.println("millisecond:"+gc.get(GregorianCalendar.MILLISECOND));
-		System.out.println("all millisecond:"+gc.getTimeInMillis());
+		System.out.println("year:"+gc1.get(GregorianCalendar.YEAR));
+		System.out.println("Mounth:"+gc1.get(GregorianCalendar.MONTH));
+		System.out.println("date:"+gc1.get(GregorianCalendar.DAY_OF_MONTH));
+		System.out.println("hour:"+gc1.get(GregorianCalendar.HOUR_OF_DAY));
+		System.out.println("minute:"+gc1.get(GregorianCalendar.MINUTE));
+		System.out.println("second:"+gc1.get(GregorianCalendar.SECOND));
+		System.out.println("millisecond:"+gc1.get(GregorianCalendar.MILLISECOND));
+		System.out.println("all millisecond : "+gc1.getTimeInMillis());
 		
 	}
 	

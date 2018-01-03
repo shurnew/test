@@ -32,29 +32,31 @@ public class ListforArray {
 	
 	public boolean insert(int index,String str) {
 			
-		if(array[index]==null) {
+		if(array[index]==null) {// 배열안에 값이있는지를 체크하기위한  if문
 			
 
-			if(index<size) {
+			if(index<size) {//배열의 크기에 맟춰 값을 넣는 if문
 				
 				array[index]=str;
 				
 				System.out.println("새로운값 :"+array[index]);
 				
 			}else {
+				
 				System.out.println("배열의 길이를 초과한 값을 입력하였습니다");
+				
 			}
 			
-			}else {
+			}else {//만약 값이 있을때
 				
-				for(int i=size-1;i>=index;--i) {
+				for(int i=size-1;i>=index;--i) {//배열의 길이 부터 선택한 배열의 인덱스까지 반복
 					
 					
-					array[i]= array[i-1];
+					array[i]= array[i-1];//한칸씩 인덱스가  뒤로밀린다
 					
 					if(i==index) {
 						
-						array[index]=str;
+						array[index]=str;//바꿀 데이터를 넣어준다
 					}
 					
 				}

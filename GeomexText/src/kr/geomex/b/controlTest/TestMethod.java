@@ -4,20 +4,33 @@ import java.util.*;
 import kr.geomex.petTest.Pet6;
 
 public class TestMethod {
+	
+	int i;
+	String  s;	
+	
+	
+	
+	public TestMethod(){
+		
+	}
+	public TestMethod(String s){
+		this.s=s;
+		System.out.println(s);
+	}
+	public TestMethod(int i){
+		this.i=i;
+	}
 
-	//int i=0;	
-	Pet6 p =new Pet6();
-//	ArrayList al= new ArrayList();
 		public void print() {
 			System.out.println("1번메소드");
 		System.out.println("짝수입니까? 홀수입니까?");
 		
-		if(p.Population%2==0){
+		if(i%2==0){
 			
-			System.out.println("짝수마리있습니다");
+			System.out.println("짝수입니다");
 		}else {
 			
-			System.out.println("홀수마리있습니다");
+			System.out.println("홀수입니다");
 		}
 		}
 		
