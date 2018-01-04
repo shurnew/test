@@ -8,22 +8,29 @@ public class ArrayQueue {
 
 	ArrayList<Integer> list = new ArrayList<Integer>();
 
-	public void add(int i) throws Exception {
-		
+	public void add(int i) {// throws Exception
+
 		list.add(i);
-		throw new IOException();
+		// throw new IOException();//예외를 발생시킨
 
 	}
-	
-	public Integer delete() throws Exception {
+
+	public Integer delete() {
+
 		int a = list.size();
 		int i = 0;
-		
-		if (a >= 0) {
-			
+
+		try {
+
 			i = list.remove(0);
-		} 
-		
+
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+			
+			System.out.println("오류발");
+
+		}
 		return i;
 	}
 
