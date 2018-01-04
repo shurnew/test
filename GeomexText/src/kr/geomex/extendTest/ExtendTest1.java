@@ -9,9 +9,9 @@ public class ExtendTest1 extends ExtendTest {
 
 	TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
 	NavigableMap<Integer, String> nm = tm.descendingMap();// 정렬된 값을 반전시킨다
-
+ 
 	@Override
-	public void print() {// 오버라이딩
+	public void print() {// 오버라이딩 
 
 		Set<Map.Entry<String, Integer>> count = map.entrySet();
 		Set<Map.Entry<Integer, String>> count1 = nm.entrySet();
@@ -26,7 +26,7 @@ public class ExtendTest1 extends ExtendTest {
 		}
 	}
 
-	public void superPrint() {
+	public void superPrint() {//기존 부모클래싀의 메소드를 사용
 		super.print();
 	}
 }

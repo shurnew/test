@@ -4,7 +4,7 @@ public class Calculation {
 
 	int state=0;
 	
-	public int sum(int a, int b) {
+	public int sum(int a, int b) { 
 
 		int sum = a + b;
 

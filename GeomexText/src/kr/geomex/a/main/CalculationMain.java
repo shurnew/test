@@ -14,7 +14,7 @@ public class CalculationMain {
 		a[1]=cal.sub(6, 4);
 		a[2]=cal.mul(6, 4);
 		a[3]=cal.div(6, 4);
-		
+		 
 		
 		//평균구하기
 		cal.insert(50,90,40);
@@ -25,7 +25,7 @@ public class CalculationMain {
 		System.out.println("사칙연산 :"+a[i]);
 		}
 		
-		
+		 
 	}
 
 }

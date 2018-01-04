@@ -6,7 +6,7 @@ public class Calculation1 extends Calculation {
 
 	ArrayList<Integer>al=new ArrayList<Integer>();
 	
-	public void insert(int a) {
+	public void insert(int a) { 
 
 		al.add(a);
 		
@@ -33,7 +33,7 @@ public class Calculation1 extends Calculation {
 		}
 		
 		int i = a/al.size();
-		al.clear();
+		al.clear(); 
 		return i;
 	}
 }

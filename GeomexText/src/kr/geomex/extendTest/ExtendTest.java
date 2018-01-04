@@ -1,4 +1,4 @@
-package kr.geomex.extendTest;
+ package kr.geomex.extendTest;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,15 +7,15 @@ import java.util.TreeMap;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
-public class ExtendTest {
+public class ExtendTest  {
 
 	TreeMap<String, Integer> map = new TreeMap<String, Integer>();
-
+	
 	public void add(String key,Integer var) {
 		map.put(key, var);
 	}
 
-	public void delete(String key) {
+	public void delete(String key) { 
 		map.remove(key);
 	}
 
