@@ -6,7 +6,7 @@ import kr.geomex.extendTest.Students;
 
 public class ExtendMain {
 
-	public static void main(String[] args) {
+ static void main(String[] args) {
 		
 		ExtendTest1 ex=new ExtendTest1();
 		

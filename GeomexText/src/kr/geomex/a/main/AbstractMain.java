@@ -11,9 +11,17 @@ public class AbstractMain {
 		Triangle t1 = new Triangle();
 
 		c1.draw();
-		c1.calculate(3, 5);
+		try {
+		
+		c1.calculate(4, 4);	
+		
+		}catch(ArithmeticException e) {
+			System.out.println("오류발생");
+		}
 
 		t1.draw();
-		t1.calculate(4, 5);
+	
+		t1.calculate(5, 4);
+	
 	}
 }

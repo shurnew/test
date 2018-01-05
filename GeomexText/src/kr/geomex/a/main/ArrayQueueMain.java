@@ -4,31 +4,21 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import kr.geomex.collecttionTest.ArrayQueue;
+import kr.geomex.exceptionTest.ArrayException;
 
 public class ArrayQueueMain {
 
 	public static void main(String[] args) {
 
 		ArrayQueue aq = new ArrayQueue();
-	
+
 		aq.add(1);
 		aq.add(2);
-		/*
-		 * try {
-		 * 
-		 * 
-		 * } catch (IOException e1) {
-		 * 
-		 * System.out.println("예외발생!!!111111111111"); } catch (Exception e) {
-		 * 
-		 * System.out.println("예외발생!!!"); }
-		 */
+		//aq.add(3);
+		//aq.add(4);
+		//aq.add(5);
 
-		/*
-		 * aq.add(3); aq.add(4); aq.add(5);
-		 */
-
-		//try {
+		try {
 			System.out.println(aq.delete());
 			System.out.println(aq.delete());
 
@@ -38,11 +28,15 @@ public class ArrayQueueMain {
 			System.out.println("----------------------------------------------------");
 			System.out.println(aq.delete());
 
-		//} catch (Exception e) {
+		} catch (ArrayException e) {
 
-		///System.out.println("에외발생");
+			System.out.println(e.getMessage());//ArrayException클래스에서 작성한 문자열을 출력
 
-	//	}
+		} catch (Exception e1) {
+
+			System.out.println("에외발생");
+
+		}
 
 		System.out.println("----------------------------------------------------");
 

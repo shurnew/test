@@ -1,6 +1,6 @@
 package kr.geomex.abstractTest;
 
-public class Circle extends Shape {
+public class Circle extends Shape  {
 
 	@Override
 	public void draw() {
@@ -9,9 +9,19 @@ public class Circle extends Shape {
 	}
 
 	@Override
-	public void calculate(int a,int b) {
-		
+	public void calculate(int a,int b) throws ArithmeticException {
+		if(a!=0&&b!=0) {
+		show(a,b);
 		System.out.println("¿øÀÇ ³ÐÀÌ"+(3.14*a*b));
+		}else {
+			throw new ArithmeticException();
+		}
+	}
+
+	@Override
+	public void test() {
+		
+		
 	}
 
 	

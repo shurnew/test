@@ -16,6 +16,7 @@ public class Student {
 			throw new StudentAgeException();
 			
 		}
+		
 		System.out.println("학생 나이 : " + age);
 	}
 }
