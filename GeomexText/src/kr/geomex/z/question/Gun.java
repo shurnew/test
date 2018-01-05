@@ -5,7 +5,7 @@ public class Gun implements Weapon{
 	@Override
 	public void attack() {
 		
-		System.out.println("ÃÑ °ø°Ý");
+		System.out.println("ÃÑ °ø°Ý ");
 	}
 
 }
