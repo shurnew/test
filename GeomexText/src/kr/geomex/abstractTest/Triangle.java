@@ -2,6 +2,13 @@ package kr.geomex.abstractTest;
 
 public class Triangle extends Shape {
 
+		Shape a= null;
+	public Triangle() {
+	
+		
+	}
+	
+	
 	@Override
 	public void calculate(int a, int b) {
 		try {

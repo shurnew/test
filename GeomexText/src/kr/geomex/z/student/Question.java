@@ -1,4 +1,4 @@
-package kr.geomex.z.question
+package kr.geomex.z.student
 ;
 
 import java.util.Collection;
