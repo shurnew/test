@@ -1,7 +1,7 @@
 package kr.geomex.a.main;
 
 import kr.geomex.memo.MemoException;
-import kr.geomex.memo.MemoScanner;
+import kr.geomex.memo.MemoWrite;
 import kr.geomex.memo.ListEdit;
 import kr.geomex.memo.Memo;
 
@@ -12,7 +12,7 @@ public class MemoMain {
 		ListEdit di = new Memo();
 		
 		Memo memo = new Memo();//√ ±‚»≠
-		MemoScanner mesc = new MemoScanner();
+		MemoWrite mesc = new MemoWrite();
 	
 		mesc.run();
 		

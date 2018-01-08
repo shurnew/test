@@ -2,7 +2,7 @@ package kr.geomex.memo;
 
 import java.util.Scanner;
 
-public class MemoScanner extends Memo {
+public class MemoWrite extends Memo {
 
 	Scanner sc = new Scanner(System.in);
 	boolean loop = true;

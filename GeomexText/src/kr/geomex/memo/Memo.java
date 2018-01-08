@@ -10,6 +10,7 @@ import kr.geomex.exceptionTest.ArrayException;
 public class Memo extends Time implements ListEdit, ListClear {
 
 	String message = "";
+	
 	public ArrayList<Table> list = new ArrayList<>();
 
 	@Override
