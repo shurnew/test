@@ -1,14 +1,14 @@
 package kr.geomex.a.main;
 
 
-import kr.geomex.extendTest.ExtendTest1;
+import kr.geomex.extendTest.ScorePrinter;
 import kr.geomex.extendTest.Students;
 
 public class ExtendMain {
 
  static void main(String[] args) {
 		
-		ExtendTest1 ex=new ExtendTest1();
+		ScorePrinter ex=new ScorePrinter();
 		
 		ex.add("신지현",70);
 		ex.add("권미진",12);

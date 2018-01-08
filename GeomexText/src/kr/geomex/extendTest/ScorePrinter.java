@@ -5,7 +5,7 @@ import java.util.NavigableMap;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class ExtendTest1 extends ExtendTest {
+public class ScorePrinter extends StudentData {
 
 	TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
 	NavigableMap<Integer, String> nm = tm.descendingMap();// 정렬된 값을 반전시킨다

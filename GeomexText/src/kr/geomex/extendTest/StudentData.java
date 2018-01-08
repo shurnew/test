@@ -7,7 +7,7 @@ import java.util.TreeMap;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
-public class ExtendTest  {
+public class StudentData  {
 
 	TreeMap<String, Integer> map = new TreeMap<String, Integer>();
 	

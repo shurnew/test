@@ -2,7 +2,7 @@ package kr.geomex.interfaceTest;
 
 import java.util.ArrayList;
 
-public class InterfaceTest_00 implements InterfaceTest, InterfaceTest1 {
+public class Boat implements BoatManual, Print {
 
 	ArrayList<Integer> list = new ArrayList<Integer>();
 

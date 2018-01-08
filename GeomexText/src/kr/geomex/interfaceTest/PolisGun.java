@@ -1,4 +1,4 @@
-package kr.geomex.z.question;
+package kr.geomex.interfaceTest;
 
 public interface PolisGun {
 	

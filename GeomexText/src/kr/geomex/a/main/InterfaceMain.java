@@ -1,12 +1,12 @@
 package kr.geomex.a.main;
 
-import kr.geomex.interfaceTest.InterfaceTest_00;
+import kr.geomex.interfaceTest.Boat;
 
 public class InterfaceMain {
 
 	public static void main(String[] args) {
 		
-		InterfaceTest_00 inf =new InterfaceTest_00();
+		Boat inf =new Boat();
 		
 		inf.run(54818);
 	}

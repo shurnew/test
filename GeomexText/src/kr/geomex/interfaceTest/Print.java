@@ -1,6 +1,6 @@
 package kr.geomex.interfaceTest;
 
-public interface InterfaceTest1 {
+public interface Print {
 	
 	abstract void print();
 }

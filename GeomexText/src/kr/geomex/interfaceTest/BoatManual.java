@@ -1,6 +1,6 @@
 package kr.geomex.interfaceTest;
 
-public interface InterfaceTest {
+public interface BoatManual {
 	
 	static final int MEX_COUNT=8;
 	

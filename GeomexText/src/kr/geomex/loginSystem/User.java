@@ -1,20 +1,32 @@
 package kr.geomex.loginSystem;
 
-public class User {
+import java.util.HashMap;
 
+public class User {
+	String gender = "";
 	String name = "";
-	int num = 0;
 	int score = 0;
 
-	public User(int num, String name) {
+	public User() {
 
-		this.name = name;
-		this.num = num;
 	}
 
-	public User(String name,int score) {
+	public User(String name, String gender) {
+
+		this.name = name;
+		this.gender = gender;
+	}
+	
+	public User(String name, int score, String gender) {
+
+		this.name = name;
+		this.score = score;
+		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
 		
-		this.name=name;
-		this.score=score;
+		return "[이름 :"+name+" 성별 :"+gender+"]";
 	}
 }
