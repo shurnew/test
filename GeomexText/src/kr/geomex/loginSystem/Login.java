@@ -2,7 +2,9 @@ package kr.geomex.loginSystem;
 
 import java.util.HashMap;
 
-public class Login extends Register implements GetData {
+public class Login extends SignUp implements GetData {
+
+	LogView sc = new LogView();
 
 	@Override
 	public void get(int key) {
@@ -11,11 +13,10 @@ public class Login extends Register implements GetData {
 
 			if (map.get(key) != null) {
 				
-				System.out.println(map.get(key));
-				
-				
+				sc.set(key, map.get(key));
+
 			} else {
-				
+
 				throw new Exception();
 			}
 		} catch (Exception e) {

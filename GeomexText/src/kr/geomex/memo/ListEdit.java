@@ -1,6 +1,6 @@
 package kr.geomex.memo;
 
-public interface ListEdit {
+public interface ListEdit extends ListClear {
 	final int MIN_INDEX=0;
 	
 	public abstract void add(String s);

@@ -7,7 +7,7 @@ import org.omg.CORBA.ExceptionList;
 
 import kr.geomex.exceptionTest.ArrayException;
 
-public class Memo extends Time implements ListEdit, ListClear {
+public class Memo extends Time implements ListEdit {
 
 	String message = "";
 	
