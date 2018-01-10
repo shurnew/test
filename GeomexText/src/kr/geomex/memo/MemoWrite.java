@@ -8,9 +8,21 @@ public class MemoWrite extends Memo {
 	boolean loop = true;
 
 	public void set(int i, String s) {
+
 		String time = getTime();
 
 		list.set(i, new Table(s, time));
+	}
+
+	public void run() {
+		System.out.println("-----------메모장 시작------------");
+
+		while (loop) {
+			start();
+			selectMenu(sc.nextInt());
+
+		}
+
 	}
 
 	public void start() {
@@ -25,32 +37,20 @@ public class MemoWrite extends Memo {
 		System.out.println("------------------------------");
 	}
 
-	public void run() {
-		System.out.println("-----------메모장 시작------------");
-		
-		while (loop) {
-			start();
-			selectMenu(sc.nextInt());
-			
-		}
-		
-
-	}
-
 	public boolean selectMenu(int i) {
 
 		int a = 0;
-		
+
 		switch (i) {
 		case 1:
-			
+
 			add(sc.next());
 			break;
 
 		case 2:
 
 			try {
-				a=sc.nextInt();
+				a = sc.nextInt();
 				delete(a);
 
 			} catch (MemoException e) {
@@ -68,7 +68,7 @@ public class MemoWrite extends Memo {
 			System.out.println("인덱스 값을 입력해주세요");
 
 			a = sc.nextInt();
-			set(a,sc.next());
+			set(a, sc.next());
 			break;
 		case 4:
 

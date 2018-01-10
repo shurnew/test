@@ -4,16 +4,16 @@ import java.util.HashMap;
 
 public class Login extends SignUp implements GetData {
 
-	LogView sc = new LogView();
+	LogView lv = new LogView();
 
 	@Override
-	public void get(int key) {
+	public void logIn(int key) {
 
 		try {
 
 			if (map.get(key) != null) {
 				
-				sc.set(key, map.get(key));
+				lv.set(key, map.get(key));
 
 			} else {
 
@@ -23,5 +23,11 @@ public class Login extends SignUp implements GetData {
 
 			System.out.println("잘못된 아이디입력");
 		}
+	}
+	
+	public void logOut(int key)throws Exception {
+		
+		lv.delete(key,map.get(key));
+		
 	}
 }

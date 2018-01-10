@@ -7,11 +7,14 @@ import java.util.Set;
 
 public class LogView extends SignUp implements LogPrint {
 
+	
+	
+	
 	@Override
 	public void print() {
-		 
-		Set<Map.Entry<Integer, User>> count = map.entrySet();
 		
+		 Set<Map.Entry<Integer, User>> count = map.entrySet();
+		 
 		for (Map.Entry<Integer, User> entry : count) {// 맵을 출력해주는 구문
 
 			System.out.println(entry.getKey() + " : " + entry.getValue());
@@ -26,5 +29,10 @@ public class LogView extends SignUp implements LogPrint {
 		
 		print();
 	}
-
+	
+	public void delete(int key,User a)throws Exception {
+		
+		map.put(key, new User(a, "접속종료"));
+		print();
+	}
 }

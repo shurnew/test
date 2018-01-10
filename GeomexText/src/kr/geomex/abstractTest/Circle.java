@@ -2,6 +2,7 @@ package kr.geomex.abstractTest;
 
 public class Circle extends Shape  {
 
+	
 	@Override
 	public void draw() {
 		System.out.println("원을그렸습니다");

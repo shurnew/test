@@ -15,7 +15,7 @@ public class Customer extends Thread {
 			System.out.println(getName()+":"+i+"¹øÂ°");
 			same_a.deposit();
 			
-			if (same_a.gettotal()>=500000) {
+			if (same_a.gettotal()>=50000) {
 				
 				break;
 			}
