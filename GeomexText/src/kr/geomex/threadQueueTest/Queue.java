@@ -17,9 +17,11 @@ public class Queue<E> {
 
 		if (initialCapacity < 0) {
 			throw new IllegalArgumentException("Illegal Capacity:" + initialCapacity);
-		//	elementData = (E[]) new Object[initialCapacity];
-			//this.capacity = initialCapacity;
 		}
+		
+			elementData = (E[]) new Object[initialCapacity];
+			this.capacity = initialCapacity;
+		
 
 	}
 
