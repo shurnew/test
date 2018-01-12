@@ -47,6 +47,9 @@ public class Memo extends Time implements ListEdit {
 
 			System.out.println("삭제하기 실패:잘못된 인덱스를 호출하였습니다");
 		}
+		finally {
+			System.out.println();
+		}
 	}
 
 	@Override

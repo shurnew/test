@@ -17,7 +17,7 @@ public class ExtendMain {
 		ex.add("김성오",80); 
 		ex.add("김승환",75);
 		//ex.test();
-		ex.superPrint();
+		//ex.superPrint();
 		System.out.println("-------------------------------------");
 		ex.print();//상속받은 ExtendTest1의 print메소드가실행된다
 	}
