@@ -37,6 +37,13 @@ public class Friend {
 		this.weight= weight;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public String getTelephone() {
+		return telephone;
+	}
 	
 	public int getAge() {
 		return age;

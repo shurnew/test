@@ -24,7 +24,7 @@ public class StringMain {
 		 * Stringbuffer를 사용하여  문자열을 추가삭제 하는 프로그램
 		 */
 		
-		/*
+		
 		StringBf sb= new StringBf();
 		
 		String str=new String();
@@ -38,14 +38,14 @@ public class StringMain {
 		str=sb.substring(0,3);
 		
 		System.out.println(str);
-		*/
+		
 		
 		
 		/**
 		 * StringTokenizer 예제
 		 */
 		
-		Tokenizer st =new Tokenizer();
+		/*Tokenizer st =new Tokenizer();
 		 
 		st.test();
 		
@@ -53,7 +53,7 @@ public class StringMain {
 		
 		st.add("12-52-95-890-44485-4585-125");
 		
-		st.print();
+		st.print();*/
 		
 	}
 

@@ -10,10 +10,9 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		Socket socket =  new Socket();
+		Socket socket = new Socket();
 		DataOutputStream dos = null;
 		DataInputStream dis = null;
-
 
 		try {
 			socket.connect(new InetSocketAddress("127.0.0.1", 4001));
@@ -24,10 +23,25 @@ public class Client {
 			dos.writeUTF(str);
 			System.out.println(dis.readUTF());
 
-			dos.close();
-
 		} catch (IOException e) {
+
 			System.out.println("서버를 찾을 수없습니다");
+		} finally {
+
+			try {
+
+				dos.close();
+			} catch (IOException e) {
+
+				System.out.println("오류발생");
+			}
+			try {
+
+				dis.close();
+			} catch (IOException e) {
+
+				System.out.println("오류발생");
+			}
 		}
 
 	}
