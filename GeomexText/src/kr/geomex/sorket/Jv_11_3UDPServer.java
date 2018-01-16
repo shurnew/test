@@ -1,5 +1,7 @@
 package kr.geomex.sorket;
 
+import java.io.IOException;
+import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
 public class Jv_11_3UDPServer {
@@ -8,8 +10,20 @@ public class Jv_11_3UDPServer {
 		try {
 			DatagramSocket ds = new DatagramSocket(9999);
 			byte[] bf =new byte[30];
-			//TODO 오늘은 여기까지함
-		}catch (Exception e) {
+			DatagramPacket dp= new DatagramPacket(bf, bf.length);
+			while (true) {
+				try {
+					ds.receive(dp);
+					String rs1= new String(dp.getData());
+					String rs2= new String(rs1.trim());
+					System.out.println("주소 :"+dp.getAddress()+"포트 :"+dp.getPort());
+					System.out.println("수신된 메세지:"+rs2);
+					
+				} catch (IOException e) {
+					
+				}
+			}
+		}catch (IOException e) {
 
 		}
 
