@@ -29,8 +29,8 @@ public class ClientSender extends Thread {
 	public void run() {
 		Scanner sc =new Scanner(System.in);
 		String msg = "";
-		
-		try {
+		while (output!=null) {
+			try {
 			msg=sc.nextLine();
 			if (msg.equals("exit")) {
 				System.exit(0);
@@ -40,6 +40,6 @@ public class ClientSender extends Thread {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+		}
 	}
 }

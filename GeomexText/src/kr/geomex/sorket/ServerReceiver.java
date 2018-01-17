@@ -29,7 +29,6 @@ public class ServerReceiver extends Thread {
 		Iterator<String> it = clients.keySet().iterator();
 		while (it.hasNext()) {
 			try {
-				
 				DataOutputStream dos= clients.get(it.next());
 				dos.writeUTF(message);
 			} catch (Exception e) {

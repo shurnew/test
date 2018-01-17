@@ -38,6 +38,4 @@ public class MultChatServer {
 			e.printStackTrace();
 		}
 	}
-	
-
 }
